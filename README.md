@@ -1,10 +1,10 @@
-# FactorLab
+# Variable elimination
 
-FactorLab eliminates variables from supplied nonnegative rational factors over at most five binary variables. It records every product, sum or max reduction and fill edge. Dependency-free Python and independent BigInt JavaScript implementations check the results against complete enumeration.
+Variable elimination eliminates variables from supplied nonnegative rational factors over at most five binary variables. It records every product, sum or max reduction and fill edge. Dependency-free Python and independent BigInt JavaScript implementations check the results against complete enumeration.
 
 Choose an all-sum, all-max or mixed marginal-MAP query. The inspector separates the exact marginal-MAP answer from the upper bound produced by an invalid mixed order, and compares the table allocations for every small elimination order.
 
-[Live inspector](https://midya8.github.io/factorlab/) · [Method and sources](METHOD.md)
+[Live inspector](https://midya8.github.io/variable-elimination/) · [Method and sources](METHOD.md)
 
 ## Sum is not max
 
